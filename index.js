@@ -81,6 +81,6 @@ function resultDisplay() {
 }
 
 function playerMoveDisplay(playerMove, computerMove) {
-    document.querySelector('.playermoves').innerHTML = `You <img class="img-icon" src="/images/${playerMove}-emoji.png" alt="scissor"> Computer <img class="img-icon" src="/images/${computerMove}-emoji.png" alt="scissor">`;
+    document.querySelector('.playermoves').innerHTML = `You <img class="img-icon" src="images/${playerMove}-emoji.png" alt="scissor"> Computer <img class="img-icon" src="images/${computerMove}-emoji.png" alt="scissor">`;
 }
 updateScore();
